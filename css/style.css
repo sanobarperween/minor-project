@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Mukta, sans-serif;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../imgs/bg5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; height: 120vh;    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgba(121, 115, 115, 0.527);
+    text-shadow: 2px 2px 2px rgba(44, 42, 42, 0.842);
+    margin-top: 15px;
+    color:red;
+
+}
+
+nav ul{
+    display: flex;
+    list-style-type:none;
+    float:right;
+   
+}    
+nav ul li{
+    margin: 0px 15px;
+
+}
+nav li a{
+    text-decoration: none;
+ 
+    margin-top: 15px;
+    color:red;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 2px rgba(44, 42, 42, 0.842);
+
+}
+nav li a:hover{
+    color: yellow;
+}
+.middle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.middle h3{
+    margin-left: 20px;
+}
+.middle a{
+    margin-left: 15%;
+}
+
+.middle .box1{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../imgs/c1.jpg);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.842);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 15px;
+    box-shadow: 10px 10px 10px red;
+    width: 400px;
+    height: 200px;  
+    color: cornsilk;
+
+    }
+
+
+.middle .box2{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../imgs/p2.jpg);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.842);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 15px;
+    box-shadow: 10px 10px 10px red;
+    width: 400px;
+    height: 200px; 
+    color: aliceblue; 
+
+}
+
+.middle .box3{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../imgs/gallery3.jpg);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.842);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 15px;
+    box-shadow: 10px 10px 10px red;
+    width: 400px;
+    height: 200px;  
+    color: aliceblue;
+
+
+}
+
+.middle h3{
+    font-size: 2.10em;
+    
+    
+}
+
+header .content{
+
+    height: 200px;
+    color: rgb(233, 17, 17);
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 3px 3px 3px rgba(247, 23, 23, 0.842);
+}
+
+
+header .content button{
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    background-color:rgb(238, 42, 16);
+    font-size: 1.25em;
+
+}
+header .content button:hover{
+    background-color: rgb(236, 209, 51);
+    color: red;
+    cursor: pointer;
+    
+}
+
+footer{
+    background-color: rgb(255, 40, 40);
+    display: flex;
+    color: seashell;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+footer ul{
+    list-style-type:none;
+    display: flex;
+
+}
+
+footer ul a{
+    text-decoration: none;
+    color: rgb(211,182,16);
+    font-size: 1.3em;
+    margin-left: 20px;
+}
+
